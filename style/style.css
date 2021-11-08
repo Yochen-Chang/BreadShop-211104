@@ -252,7 +252,7 @@ main #banner #navArea {
   main #banner #navArea {
     display: inline-block;
     position: fixed;
-    top: 45vw;
+    top: 50vh;
     right: 2.5rem;
     z-index: 2500;
   }
@@ -269,7 +269,6 @@ main #banner #navArea {
 
 main #banner #navArea #navBtn {
   position: fixed;
-  top: 50vh;
   right: 0;
   width: 2.5rem;
   height: 2.5rem;
