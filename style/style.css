@@ -76,7 +76,7 @@ img {
 
 .discount {
   width: 70vw;
-  height: 40vw;
+  height: 60vh;
   background-color: #d7c8b9;
   border-radius: 1rem;
   position: fixed;
@@ -171,6 +171,12 @@ img {
   width: 5vw;
 }
 
+@media (min-width: 800px) and (max-width: 1125px) {
+  .discount {
+    height: 50vh;
+  }
+}
+
 @media (max-width: 800px) {
   .discount {
     height: 70vh;
@@ -263,6 +269,7 @@ main #banner #navArea {
 
 main #banner #navArea #navBtn {
   position: fixed;
+  top: 50vh;
   right: 0;
   width: 2.5rem;
   height: 2.5rem;

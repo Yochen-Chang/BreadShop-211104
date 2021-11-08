@@ -67,7 +67,7 @@ $media-width-2: 800px;
 // discount setting
 .discount {
   width: 70vw;
-  height: 40vw;
+  height: 60vh;
   background-color: $color-discount;
   border-radius: 1rem;
   position: fixed;
@@ -145,6 +145,9 @@ $media-width-2: 800px;
       top: 3vw;
       width: 5vw;
     }
+  }
+  @media (min-width: $media-width-2) and (max-width: $media-width-1) {
+    height: 50vh;
   }
   @media (max-width: $media-width-2) {
     height: 70vh;
@@ -224,6 +227,7 @@ main {
       }
       #navBtn {
         position: fixed;
+        top: 50vh;
         right: 0;
         width: 2.5rem;
         height: 2.5rem;
